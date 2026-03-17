@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'helvetica neue';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+  text-decoration: underline;
+}
+h2{
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  top: 70vh;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+  text-decoration: underline;
+}
+.nav{
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.nav a{
+  text-decoration: none;
+}
+
+.sale{
+  background-color: rgb(208, 66, 89);
+  display: flex;
+  gap: 60px;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.sale p{
+  flex-shrink: 0;
+}
+
+.footer{
+  display: flex;
+  background-color: rgb(244, 234, 234);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
+}
+.footer button{
+  padding: 10px;
+  font-size: 16px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 5px;
+}
