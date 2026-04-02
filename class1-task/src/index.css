@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+       height: 100%;
+       width: 100%;
+}
+.globalnav{
+  background-color: white;
+  margin: 7px;
+  padding: 10px 10px;
+}
+.sidenav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.centernav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.section{
+  padding: 10px 20px;
+  height: 90vh;
+  width: 100%;
+}
+img{
+  height: fit-content;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.center{
+  padding: 20px 20px;
+}
